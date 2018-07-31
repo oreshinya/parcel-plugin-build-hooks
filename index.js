@@ -3,7 +3,7 @@ const fs = require('fs');
 const json = require('comment-json');
 
 module.exports = function(bundler) {
-  const jsonPath = `${bundler.options.rootDir}/package.json`;
+  const jsonPath = `${process.cwd()}/package.json`;
   const pkgJSON = json.parse(fs.readFileSync(jsonPath, {encoding: 'utf-8'}));
   const options = pkgJSON["parcel-plugin-build-hooks"] || {};
 
