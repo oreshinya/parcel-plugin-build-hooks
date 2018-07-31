@@ -1,0 +1,17 @@
+{
+  "name": "parcel-plugin-build-hooks",
+  "version": "1.0.0",
+  "description": "A plugin for the parcel bundler to run command on build hooks",
+  "main": "index.js",
+  "keywords": [
+    "parcel",
+    "bundler",
+    "plugin",
+    "command"
+  ],
+  "author": "oreshinya",
+  "license": "MIT",
+  "dependencies": {
+    "comment-json": "^1.1.3"
+  }
+}
