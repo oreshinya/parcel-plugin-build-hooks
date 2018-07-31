@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A plugin for the parcel bundler to run command on build hooks",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oreshinya/parcel-plugin-build-hooks.git"
+  },
   "keywords": [
     "parcel",
     "bundler",
